@@ -9,7 +9,7 @@ public class AplicacionTerminal {
 
         String input = "";
 
-        while (!input.equals("salir")){
+        while (!input.equals("exit")){
             System.out.println("Ingresa comando: ");
             input = scanner.next().toLowerCase();
             System.out.println(input);
